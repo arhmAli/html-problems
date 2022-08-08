@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaceMarathon</title>
+</head>
+<main>
+
+    <body>
+        <h1>RaceMarathon!</h1>
+        <form action="">
+
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname" required placeholder="firstname" minlength="4" maxlength="15">
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname" required placeholder="lastname">
+            <p>
+                <div class="radiobox" required>
+                    <label for="options"> <strong>Select Race Type</strong> </label>
+                    <br>
+                    <br>
+                    <label for="5krace">5KMRace</label>
+                    <input type="radio" name="race" id="5krace">
+            </p>
+            <p>
+                <label for="halfmarathon">HalfMarathon</label>
+
+                <input type="radio" name="race" id="halfmarathon">
+            </p>
+            <p><label for="fullmarathon">fullmarathon</label>
+                <input type="radio" name="race" id="fullmarathon">
+            </p>
+            </div>
+            <p>
+                <label for="email">Enter Your Email</label>
+                <input type="email" name="email" id="email" required placeholder="emailcontains@">
+                <label for="password">EnterYourPassword</label>
+                <input type="password" name="password" id="password" required placeholder="PASSWORD">
+            </p>
+            <label for="agegroup">SelectYourAgeGroup</label>
+            <select name="dropdown" id="agegroup">
+                <option value="1">Under18</option>
+                <option value="2">18-30</option>
+                <option value="3">30+</option>
+            </select>
+            <br>
+            <button>Register!</button>
+        </form>
+    </body>
+</main>
+
+</html>
